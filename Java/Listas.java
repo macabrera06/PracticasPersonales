@@ -1,9 +1,14 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class Listas {
     
     public static void main(String[] args) {
         
+        //elementos de la lista con la que trabajaremos
+
         String Variable1 = "Clase 1";
         String Variable2 = "Clase 2";
         String Variable3 = "Clase 3";
@@ -30,9 +35,23 @@ public class Listas {
             System.out.println(clase);
         }
 
-        
+        //Ahora veremos formas de ordenar la lista
 
+        //ordena nuestra lista de mayor a menor
+        Collections.sort(listaString, null); 
+        System.out.println(listaString);
 
+        //ordenamos nuestra lista descendente de lo que esta actualmente
+        Collections.sort(listaString, Collections.reverseOrder());
+        System.out.println(listaString);
+
+        //ordenamos de mayor a menor
+        listaString.sort(Comparator.reverseOrder());
+        System.out.println(listaString);
+
+        //ordenamos de menor a mayor
+        listaString.sort(Comparator.naturalOrder());
+        System.out.println(listaString);
 
     }
 }
