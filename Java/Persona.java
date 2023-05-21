@@ -1,5 +1,3 @@
-
-
 public class Persona {
 
     //atributos
@@ -29,5 +27,12 @@ public class Persona {
         this.nombre = nombre;
         this.edad = edad;
     }
+
+
+    @Override
+    public String toString(){
+        return this.nombre;
+    }
+
     
 }
