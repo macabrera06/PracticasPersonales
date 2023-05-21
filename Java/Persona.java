@@ -1,5 +1,4 @@
 public class Persona {
-
     //atributos
     private String nombre;
     private int edad;
@@ -33,6 +32,4 @@ public class Persona {
     public String toString(){
         return this.nombre;
     }
-
-    
 }
