@@ -1,6 +1,6 @@
 
 
-private class Persona {
+public class Persona {
 
     //atributos
     private String nombre;
