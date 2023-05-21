@@ -1,7 +1,7 @@
 
 
-public class Persona {
-    
+private class Persona {
+
     //atributos
     private String nombre;
     private int edad;
