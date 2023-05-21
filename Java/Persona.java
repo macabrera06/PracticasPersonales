@@ -1,6 +1,7 @@
 
 
 public class Persona {
+    
     //atributos
     private String nombre;
     private int edad;
